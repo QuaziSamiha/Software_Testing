@@ -1,0 +1,16 @@
+{
+  "name": "part_4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^4.0.16"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}

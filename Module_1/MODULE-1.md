@@ -191,3 +191,41 @@ node ./async.js
 ```
 
 ## 8: Using Testing Hooks
+
+## 9: Some Tips and Getting Started with Mock and Spies
+
+- we can write nested describe block / test suite
+- we can write hook within describe block / test suite
+- we can also do concurrent test (a group of tests will run at the same time)
+
+```bash
+it.concurrent("should store the provided email value", () => {
+  //   const testEmail = 'test@test.com';
+  const user = new User(testEmail);
+  expect(user.email).toBe(testEmail);
+});
+```
+
+- part_4
+
+```bash
+node ./app.js
+```
+
+- after running the above command, data.txt will be created
+- [vdo link ph](https://web.programming-hero.com/l2-b3-reward-courses/video/l2-b3-reward-courses-9-some-tips-and-getting-started-with-mock-and-spies)
+
+- Test Double
+
+  - it is a generic term for any case where you replace a production object for testing purpose Test Doubles
+
+- Test Doubles
+  - Mocks
+    - A mock is a test double object that replaces a real object or function with a simplified version
+      that behaves in a predictable way for testing purposes. It is used to control the behavior of the code under test by defining how certain functions should behave and what values they should return during a test.
+  - Spies
+    - A spy is a test double object that records information about how a function is called, such as the number of times it is called, with what arguments, etc. It can also be used to assed that certain functions were called during execution of a test.
+
+## 10: Basics of Mock and Spies
+
+- [watch again](https://web.programming-hero.com/l2-b3-reward-courses/video/l2-b3-reward-courses-10-basics-of-mock-and-spies)
