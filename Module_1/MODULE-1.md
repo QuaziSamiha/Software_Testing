@@ -177,3 +177,17 @@ yarn test
 - creat and test validation.js and validation.test.js file
 
 - part_2
+
+## 7: Testing Asynchronous Code With or Without Callback
+
+- part_3
+
+```bash
+yarn add crypto-js
+```
+
+```bash
+node ./async.js
+```
+
+## 8: Using Testing Hooks
